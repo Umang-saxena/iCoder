@@ -64,7 +64,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href=".contact.html">Contact Us</a>
+                            <a class="nav-link" href="/contact.html">Contact Us</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -77,11 +77,107 @@
                         <button class="btn btn-outline-success" type="submit">
                             Search
                         </button>
+                        <!-------------------------- Login Modal -------------------------->
+                        <!-- Button trigger modal -->
+                        <button
+                            type="button"
+                            class="btn btn-danger mx-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#loginModal"
+                        >
+                            Login
+                        </button>
+                        <div
+                            class="modal fade "
+                            id="loginModal"
+                            tabindex="-1"
+                            aria-labelledby="loginModalLabel"
+                            aria-hidden="true"
+                        >
+                            <div class="modal-dialog ">
+                                <div class="modal-content bg-light">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Login to iCoder</h1>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- -----------------------------------------------SIGNUP MODAL ------------------------------------------ -->
+                        <button
+                        type="button"
+                        class="btn btn-danger mx-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#signupModal"
+                        >
+                        SignUp
+                        </button>
+                        <div
+                            class="modal fade "
+                            id="signupModal"
+                            tabindex="-1"
+                            aria-labelledby="signupModalLabel"
+                            aria-hidden="true"
+                            >
+                            <div class="modal-dialog ">
+                                <div class="modal-content bg-light">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Get an iCoder Account</h1>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label"> Confirn Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </nav>
-        
+
         <div class="container">
             <div class="row featurette d-flex justify-content-center align-items-center my-5 mx-5">
                 <div class="col-md-7">
